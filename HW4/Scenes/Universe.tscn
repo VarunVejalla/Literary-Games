@@ -54,11 +54,23 @@ centered = false
 [node name="Uranus" parent="." instance=ExtResource("3_768bh")]
 position = Vector2(247, 315)
 mass = 50.0
-radius = 50.0
+radius = 30.0
 color = Color(0, 0.815686, 0.811765, 1)
 
-[node name="Planet" parent="." instance=ExtResource("3_768bh")]
+[node name="Mystery" parent="." instance=ExtResource("3_768bh")]
 position = Vector2(555, 459)
 mass = 20.0
 radius = 20.0
 velocity = Vector2(100, 0)
+
+[node name="Sun2" parent="." instance=ExtResource("3_768bh")]
+position = Vector2(330, 221)
+mass = 800.0
+radius = 50.0
+color = Color(1, 0.509804, 0, 1)
+
+[node name="Purple" parent="." instance=ExtResource("3_768bh")]
+position = Vector2(970, 168)
+mass = 50.0
+radius = 20.0
+color = Color(0.701961, 0, 0.509804, 1)
