@@ -35,18 +35,4 @@ Change some of its settings to make it behave."
 
 [node name="Crate" parent="." instance=ExtResource("4_5fnyh")]
 position = Vector2(458, 383)
-linear_damp = 1.0
-
-[node name="Panel2" type="Panel" parent="."]
-offset_left = 67.0
-offset_top = 290.0
-offset_right = 326.0
-offset_bottom = 490.0
-
-[node name="RichTextLabel" type="RichTextLabel" parent="Panel2"]
-layout_mode = 0
-offset_left = 11.0
-offset_top = 6.0
-offset_right = 259.0
-offset_bottom = 194.0
-text = "Not sure what was wanted - I was viewing this as a top-down game and added a linear damp on the object. You can get a similar functionality as with the 3rd and 4rd scenes if you set gravity equal to 1 instead."
+linear_damp = 5.0

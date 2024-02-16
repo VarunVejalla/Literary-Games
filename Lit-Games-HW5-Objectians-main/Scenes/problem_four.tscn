@@ -26,7 +26,6 @@ texture = ExtResource("3_apj2e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 0.475891)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_rb75o")
 
 [node name="TileMap" type="TileMap" parent="."]
