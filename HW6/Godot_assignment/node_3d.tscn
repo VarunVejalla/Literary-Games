@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://bbpcrj8smc78d"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_e0epc"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0gub6"]
+top_radius = 0.2
+bottom_radius = 0.2
+
+[sub_resource type="PrismMesh" id="PrismMesh_c5jeq"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.59031, 0, 0, 0, 1.59031, 0, 0, 0, 1.59031, 0, 0, 0)
+mesh = SubResource("PlaneMesh_e0epc")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.187999, -0.177887, -0.965926, -0.0101237, 0.983059, -0.183013, 0.982117, 0.0441849, 0.183013, -2.02246, 0.191348, 0.0496774)
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.01428, 0, 0, 0, 0.666745, 0, 0, 0, 1.01428, 1.66388, 0.0293695, 0.00288939)
+mesh = SubResource("CylinderMesh_0gub6")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 1, 0)
+mesh = SubResource("PrismMesh_c5jeq")
